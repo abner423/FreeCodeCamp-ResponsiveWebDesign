@@ -1,3 +1,66 @@
+<html id="main">
 <body>
-    
+  <div>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Projeto final freeCodeCamp</p>
+  </div>
+
+  <form id="survey-form">
+    <label id="name-label">Nome:</label>
+    <input placeholder="Nome" id="name" type="text" required />
+
+    <label id="email-label">Email:</label>
+    <input placeholder="Email" id="email" type="email" required />
+
+    <label id="number-label">Idade:</label>
+    <input placeholder="Idade" id="number" type="number" min="0" max="100" required />
+
+    <select id="dropdown">
+      <option>Masculino</option>
+      <option>Feminino</option>
+      <option>Não identificar</option>
+    </select>
+
+    <fieldset id="choices">
+      <p>Tem residencia fixa?</p>
+      <label>
+        <input type="radio" name="group1" value="sim" />
+        Sim
+      </label>
+      <label>
+        <input type="radio" name="group1" value="nao" />
+        Não
+      </label>
+      <label>
+        <input type="radio" name="group1" value="asvezes" />
+        As vezes
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <p>Quail(ais) das opções abaixo melhor te descrevem?</p>
+      <label>
+        <input type="checkbox" value="opt1" />
+        anti-social
+      </label>
+      <label>
+        <input type="checkbox" value="opt2" />
+        estudioso
+      </label>
+      <label>
+        <input type="checkbox" value="opt3" />
+        impaciente
+      </label>
+    </fieldset>
+
+    <textarea style="resize: none;">
+
+    </textarea>
+
+    <button type="submit" id="submit">Enviar</button>
+
+  </form>
+
 </body>
+
+</html>
