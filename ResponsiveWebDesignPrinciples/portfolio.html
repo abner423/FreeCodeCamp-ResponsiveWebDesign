@@ -1,0 +1,61 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+    <header>
+        <style>
+            #navbar {
+                position: fixed;
+                top:0;
+                display: flex;
+                align-items: center;
+                background-color: #eee;
+                color: blue;
+            }
+
+            body {
+                margin-top: 90px;
+            }
+
+            #welcome-section {
+                height: 100vh;
+            }
+
+            @media (max-width: 900px) {
+                body {
+                    background-color: burlywood;
+                }
+            }
+        </style>
+    </header>
+
+    <body>
+        <nav id="navbar">
+            <a href="#welcome-section">welcome section</a>
+            <a href="#projects">projects</a>
+        </nav>
+
+        <section id="welcome-section">
+            <h1>Portfolio Abner</h1>
+            <a id="profile-link" href="https://github.com/abner423" target="_blank">Profile link</a>
+        </section>
+
+        <section id="projects">
+            <ul>
+                <li>
+                    <h6 class="project-title">Projeto teste 1</h6>
+                    <p class="project-description project-tile">xxxxxxxxxxxxxxxxx</p>
+                    <a href="#">teste</a>
+                </li>
+                <li>
+                    <h6 class="project-title">Projeto teste 2</h6>
+                    <p class="project-description project-tile">xxxxxx</p>
+                    <a href="#">teste</a>
+                </li>
+                <li>
+                    <h6 class="project-title">Projeto teste 3</h6>
+                    <p class="project-description project-tile">xxxx</p>
+                    <a href="#">teste</a>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>
